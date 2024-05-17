@@ -1,0 +1,22 @@
+h1{
+  text-align: center;
+}
+div{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+img{
+  width: 30%;
+  margin: 5px;
+}
+@media screen and (max-width: 780px) {
+  div{
+    flex-direction: column;
+  }
+  img{
+    width: 100%;
+  }
+
+}
